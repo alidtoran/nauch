@@ -1,0 +1,23 @@
+{
+  "name": "nauch",
+  "version": "0.0.1",
+  "description": "Education game",
+  "main": "index.js",
+  "repository": "git@github.com:alidtoran/nauch.git",
+  "author": "<alidtoran@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.js --watch",
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^4.2.0",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
