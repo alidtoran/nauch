@@ -1,0 +1,29 @@
+{
+  "files": [
+    "src/app.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es6",
+    "rootDir": "src",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "removeComments": true,
+    "typeRoots": [ "node_modules/@types" ],
+    "paths": {
+      "*": [
+        "node_modules/@types/*",
+        "./src/types/*"
+      ]
+    }
+  }
+}
